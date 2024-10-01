@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif; /* Sử dụng phông chữ phổ biến và tương thích */
+}
+
+header {
+  width: 100%;
+  height: auto;
+  padding: 10px 20px;
+}
+
+p {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+  padding: 10px 20px;
+  height: auto;
+}
+
+.tieude {
+  text-align: center;
+  border: 0px solid #000;
+  border-radius: 50px;
+  background: rgb(252, 176, 69);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 176, 69, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  padding: 10px;
+  color: #fff;
+}
+
+.giohang {
+  margin-right: 15px;
+}
+
+.tieude2 {
+  text-align: center;
+  border: 0px solid #000;
+  border-radius: 50px;
+  background: rgb(0, 212, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(33, 52, 92, 1) 51%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 10px;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  border: none; /* Loại bỏ viền mặc định */
+  border-bottom: 1px solid #d4cccc; /* Thêm viền ở phía dưới */
+  padding: 5px;
+  outline: none; /* Loại bỏ đường viền khi click vào */
+}
+
+.timkiem {
+  width: 100%;
+  display: block;
+  line-height: 40px;
+}
+
+.dangnhap {
+  font-family: Arial, sans-serif; /* Bạn có thể thay đổi font nếu muốn */
+  margin-left: 40%;
+  width: 100%;
+  font-size: 16px; /* Đặt kích thước font đồng nhất */
+  font-weight: normal; /* Đặt độ đậm của chữ */
+  display: flex;
+  align-items: center;
+}
+.dangnhap i {
+  font-family: FontAwesome; /* Chỉ áp dụng cho icon */
+}
+
+.dangnhap a {
+  text-decoration: none; /* Loại bỏ gạch chân nếu có */
+  color: inherit; /* Đảm bảo màu sắc kế thừa từ cha */
+  margin-left: 10px; /* Cách đều giữa các mục */
+}
+
+.tukhoa {
+  display: flex;
+  width: 100%;
+  font-size: 12px;
+}
+
+.taikhoan {
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.fa-user,
+.fa-cart-shopping {
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 50%; /* Tạo hình tròn cho trình duyệt cũ */
+  clip-path: circle(50%); /* Tạo hình tròn bằng clip-path */
+}
+
+/* From Uiverse.io by LightAndy1 */
+.group {
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  line-height: 28px;
+  padding: 0 1rem;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f3f3f4;
+  color: #0d0c22;
+  transition: 0.3s ease;
+}
+
+.input::placeholder {
+  color: #9e9ea7;
+}
+
+.input:focus,
+input:hover {
+  outline: none;
+  border-color: rgba(247, 127, 0, 0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgb(247 127 0 / 10%);
+}
+
+.icon {
+  position: absolute;
+  left: 1rem;
+  fill: #9e9ea7;
+  width: 1rem;
+  height: 1rem;
+}
+
+.spnoibat {
+  width: 100%;
+  border-right: 1px solid #fcb045;
+  border-bottom: 1px solid #fcb045;
+  border-left: 1px solid #fcb045;
+  border-top: none; /* Loại bỏ viền trên */
+  border-radius: 50px;
+  height: 500px;
+}
+
+.spmoi {
+  width: 100%;
+  border-right: 1px solid #00d4ff;
+  border-bottom: 1px solid #00d4ff;
+  border-left: 1px solid #00d4ff;
+  border-top: none; /* Loại bỏ viền trên */
+  border-radius: 50px;
+  height: 500px;
+}
+
+.fa-star {
+  font-size: 10px;
+  padding: 0 10px;
+  position: relative;
+  top: -10px;
+  left: 0px;
+}
+
+.spnoibat,
+.spmoi {
+  width: 100%;
+  overflow-x: auto; /* Cho phép cuộn ngang */
+  white-space: nowrap; /* Không cho phép xuống dòng */
+  border-right: 1px solid #fcb045; /* Viền bên phải */
+  border-bottom: 1px solid #fcb045; /* Viền bên dưới */
+  border-left: 1px solid #fcb045; /* Viền bên trái */
+  border-top: none; /* Loại bỏ viền trên */
+  border-radius: 50px;
+  height: 500px;
+  padding: 20px 0; /* Thêm padding để tạo không gian trên và dưới */
+}

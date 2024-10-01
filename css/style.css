@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+table.bang {
+  width: 100%;
+  border-collapse: collapse; /* Loại bỏ khoảng cách giữa các ô */
+  margin-bottom: 20px;
+}
+
+table.bang th,
+table.bang td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center; /* Căn giữa nội dung */
+  vertical-align: middle; /* Căn giữa theo chiều dọc */
+}
+
+table.bang th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+table.bang td img {
+  max-width: 100px; /* Đặt giới hạn kích thước cho ảnh */
+  height: auto;
+}
+
+.products {
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3%;
+}
+
+form {
+  margin-left: 34%;
+  margin-top: 1%;
+}
+
+.form-them,
+.form-sua {
+  margin-left: 80px;
+  font-size: 20px;
+}
+
+.timsp {
+  border: none; /* Loại bỏ viền mặc định */
+  border-bottom: 2px solid #000; /* Thêm viền ở phía dưới */
+  padding: 5px;
+  outline: none; /* Loại bỏ đường viền khi click vào */
+}
+
+.timsp:focus {
+  border-bottom: 2px solid #007bff; /* Thay đổi màu viền khi được chọn */
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.them-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hien-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#namesanpham {
+  margin-bottom: 20px;
+  margin-left: 30px;
+  border: none; /* Loại bỏ viền mặc định */
+  border-bottom: 2px solid #000; /* Thêm viền ở phía dưới */
+  padding: 5px;
+  outline: none;
+}
+
+#namesanpham:focus {
+  border-bottom: 2px solid #007bff; /* Thay đổi màu viện khi được chọn */
+}
+
+#giasanpham {
+  margin-bottom: 20px;
+  margin-left: 108px;
+
+  border: none; /* Loại bỏ viền mặc định */
+  border-bottom: 2px solid #000; /* Thêm viền ở phía dưới */
+  padding: 5px;
+  outline: none;
+}
+
+#giasanpham:focus {
+  border-bottom: 2px solid #007bff; /* Thay đổi màu viện khi được chọn */
+}
+
+#anh {
+  margin-bottom: 20px;
+  margin-left: 106px;
+  border: none; /* Loại bỏ viền mặc định */
+  border-bottom: 2px solid #000; /* Thêm viền ở phía dưới */
+  padding: 5px;
+  outline: none;
+}
+
+#anh:focus {
+  border-bottom: 2px solid #007bff; /* Thay đổi màu viện khi được chọn */
+}
+
+#danhgiasanpham {
+  margin-bottom: 20px;
+  margin-left: 70px;
+
+  border: none; /* Loại bỏ viền mặc định */
+  border-bottom: 2px solid #000; /* Thêm viền ở phía dưới */
+  padding: 5px;
+  outline: none;
+}
+
+#danhgiasanpham:focus {
+  border-bottom: 2px solid #007bff; /* Thay đổi màu viện khi được chọn */
+}
+
+.btn-save {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 100px;
+}
+
+.btn-cancel {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.xoabtn {
+  padding: 10px 5px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  list-style: none;
+}
+
+.xoa {
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.sua {
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.suabtn {
+  padding: 10px 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  list-style: none;
+}
+
+.restore-btn {
+  padding: 10px 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  list-style: none;
+}
+
+.restore {
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+}
